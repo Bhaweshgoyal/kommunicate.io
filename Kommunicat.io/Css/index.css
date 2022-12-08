@@ -1,0 +1,65 @@
+.Main-div {
+border-left: 1px solid black;
+  position: fixed;
+  width: 100vw;
+  height: 40vh;
+  /* border: 1px solid black; */
+}
+.interContainer {
+    position: fixed;
+    
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  width: 50vw;
+  border-top: 1px solid lightgreen;
+  border-right: 1px solid lightgreen;
+  border-bottom: 1px solid lightgreen;
+  border-radius: 0px 500px 0px 0px;
+}
+.content {
+  display: inline;
+  z-index: 0;
+  flex-direction: column;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-left: 60px; */
+  margin-top: 5vh;
+  height: 200px;
+  /* border: 1px solid black; */
+  width: 30vw;
+}
+.text-Container{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+.Ecommerce-head {
+  color: #5553b7;
+}
+.btn-container {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn1 {
+  background-color: #2dd35c;
+  border: 0px;
+  padding: 7px;
+  border-radius: 100px;
+}
+.btn2 {
+  background-color: transparent;
+  border: 1px solid #2dd35c;
+  border-radius: 100px;
+  padding: 7px;
+}
+.design{
+    height: 150px;
+    border-radius: 500px 15px 0px 0px ;
+    background-color: lightgrey;
+    margin-top: 13vh;
+    margin-left: 32vw;
+}
